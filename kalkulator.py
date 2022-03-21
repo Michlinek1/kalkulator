@@ -1,5 +1,5 @@
 import time
-from termcolor import colored, cprint
+from termcolor import colored
 def Dodawanie(x,y):
     return x+y
 
