@@ -27,7 +27,7 @@ Dzielenie
     match Pytanie:
         case "Dodawanie" | "dodawanie":
             liczb1 = float(input(colored("Wpisz pierwszą liczbę", 'red') + "\n"))
-            liczb2 = float(input(colored("Wpisz pierwszą liczbę", 'red') + "\n"))
+            liczb2 = float(input(colored("Wpisz drugą liczbę", 'red') + "\n"))
             wynik = Dodawanie(liczb1, liczb2)
             zaaokraglenie = round(wynik)
             print(f"Wynik to:{wynik} co w zaaokragleniu daje {zaaokraglenie}")
@@ -35,7 +35,7 @@ Dzielenie
             Main()
         case "Odejmowanie" | "odejmowanie":
             liczb1 = float(input(colored("Wpisz pierwszą liczbę", 'cyan') + "\n"))
-            liczb2 = float(input(colored("Wpisz pierwszą liczbę", 'cyan') + "\n"))
+            liczb2 = float(input(colored("Wpisz drugą liczbę", 'cyan') + "\n"))
             wynik = Odejmowanie( liczb1, liczb2)
             zaaokraglenie = round(wynik)
             print(f"Wynik to:{wynik} co w zaaokragleniu daje {zaaokraglenie}")
@@ -44,7 +44,7 @@ Dzielenie
     
         case "Mnożenie" | "mnożenie":
             liczb1 = float(input(colored("Wpisz pierwszą liczbę", 'blue') + "\n"))
-            liczb2 = float(input(colored("Wpisz pierwszą liczbę", 'blue') + "\n"))
+            liczb2 = float(input(colored("Wpisz drugą liczbę", 'blue') + "\n"))
             wynik = Mnożenie(liczb1, liczb2)
             zaaokraglenie = round(wynik)
             print(f"Wynik to:{wynik} co w zaaokragleniu daje {zaaokraglenie}")
@@ -53,14 +53,16 @@ Dzielenie
             
         case "Dzielenie" | "dzielenie":
             liczb1 = float(input(colored("Wpisz pierwszą liczbę", 'green') + "\n"))
-            liczb2 = float(input(colored("Wpisz pierwszą liczbę", 'green') + "\n"))
+            liczb2 = float(input(colored("Wpisz drugą liczbę", 'green') + "\n"))
             wynik = Dzielenie(liczb1, liczb2)
             zaaokraglenie = round(wynik)
             print(f"Wynik to:{wynik} co w zaaokragleniu daje {zaaokraglenie}")
             time.sleep(2)
             Main()
-            
-        
+
 
 
 Main()
+            
+        
+
