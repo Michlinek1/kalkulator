@@ -36,16 +36,16 @@ Logatytmy
 
     match Pytanie:
         case "Dodawanie" | "dodawanie":
-            liczb1 = float(input(colored("Wpisz pierwszą liczbę", 'red') + "\n"))
-            liczb2 = float(input(colored("Wpisz drugą liczbę", 'red') + "\n"))
+            liczb1 = float(input("Wpisz pierwszą liczbę") + "\n")
+            liczb2 = float(input("Wpisz drugą liczbę") + "\n")
             wynik = Dodawanie(liczb1, liczb2)
             zaaokraglenie = round(wynik)
             print(f"Wynik to:{wynik} co w zaaokragleniu daje {zaaokraglenie}")
             time.sleep(2)
             Main()
         case "Odejmowanie" | "odejmowanie":
-            liczb1 = float(input("Wpisz pierwszą liczbę") + "\n"))
-            liczb2 = float(input("Wpisz drugą liczbę"') + "\n"))
+            liczb1 = float(input("Wpisz pierwszą liczbę") + "\n")
+            liczb2 = float(input("Wpisz drugą liczbę") + "\n")
             wynik = Odejmowanie( liczb1, liczb2)
             zaaokraglenie = round(wynik)
             print(f"Wynik to:{wynik} co w zaaokragleniu daje {zaaokraglenie}")
@@ -53,8 +53,8 @@ Logatytmy
             Main()
     
         case "Mnożenie" | "mnożenie":
-            liczb1 = float(input("Wpisz pierwszą liczbę"') + "\n"))
-            liczb2 = float(input("Wpisz drugą liczbę") + "\n"))
+            liczb1 = float(input("Wpisz pierwszą liczbę") + "\n")
+            liczb2 = float(input("Wpisz drugą liczbę") + "\n")
             wynik = Mnożenie(liczb1, liczb2)
             zaaokraglenie = round(wynik)
             print(f"Wynik to:{wynik} co w zaaokragleniu daje {zaaokraglenie}")
@@ -62,8 +62,8 @@ Logatytmy
             Main()
             
         case "Dzielenie" | "dzielenie":
-            liczb1 = float(input("Wpisz pierwszą liczbę") + "\n"))
-            liczb2 = float(input("Wpisz drugą liczbę") + "\n"))
+            liczb1 = float(input("Wpisz pierwszą liczbę") + "\n")
+            liczb2 = float(input("Wpisz drugą liczbę") + "\n")
             wynik = Dzielenie(liczb1, liczb2)
             zaaokraglenie = round(wynik)
             print(f"Wynik to:{wynik} co w zaaokragleniu daje {zaaokraglenie}")
@@ -71,7 +71,7 @@ Logatytmy
             Main()
         case "Potęga" | "potęga":
             liczb1 = float(input("Wpisz podstawę potęgi" + "\n"))
-            liczb2 = float(input("Wpisz wykładnik potęgi") + "\n"))
+            liczb2 = float(input("Wpisz wykładnik potęgi") + "\n")
             wynik = Potęga(liczb1,liczb2)
             zaaokraglenie = round(wynik)
             print(f"Wynik to:{wynik} co w zaaokragleniu daje {zaaokraglenie}")
@@ -79,8 +79,8 @@ Logatytmy
             Main()
             
         case "Modulo" | "modulo":
-            liczb1 = float(input("Wpisz pierwszą liczbę") + "\n"))
-            liczb2 = float(input("Wpisz drugą liczbę") + "\n"))
+            liczb1 = float(input("Wpisz pierwszą liczbę") + "\n")
+            liczb2 = float(input("Wpisz drugą liczbę") + "\n")
             wynik = Modulo(liczb1,liczb2)
             zaaokraglenie = round(wynik)
             if wynik == 0:
@@ -90,8 +90,8 @@ Logatytmy
             time.sleep(2)
             Main()
         case "Logatytm" | "logatytm":
-            liczb1 = int((input("Wpisz podstawę logatytmu") + "\n")))
-            liczb2 = int((input("Wpisz liczbę logatytmowaną) + "\n")))
+            liczb1 = int(input("Wpisz podstawę logatytmu") + "\n")
+            liczb2 = int(input("Wpisz liczbę logatytmowaną") + "\n")
             wynik = Logatytmy(liczb2, liczb1)
             print(f"Wynik to:{wynik}")
             time.sleep(2)
